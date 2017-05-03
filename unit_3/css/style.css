@@ -9,7 +9,7 @@ h1 {
 body {
   text-align: center;
  /* I could not figure out how to get a video into the background so I used this image */
-  background: url(ehegdahl.github.io/unit_3/images/background.png) repeat 0 0;
+  background: url(https://ehegdahl.github.io/unit_3/images/background.png) repeat 0 0;
   background-size: cover;
   color: #fff;
   font-family: helvetica;
