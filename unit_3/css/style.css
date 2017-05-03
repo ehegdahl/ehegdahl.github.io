@@ -1,0 +1,39 @@
+nav {
+	margin-top: 25px;
+}
+h1 {
+  text-align: center;
+  font-family: Garamond;
+  font-weight: 50%;
+}
+body {
+  text-align: center;
+ /* background: url("http://i.imgur.com/q0FaaAk.jpg");*/
+  background: url(/Users/erichegdahl/Documents/ehegdahl.github.io/unit_3/img/Background.png ) repeat 0 0;
+  background-size: cover;
+  color: #fff;
+  font-family: helvetica;
+}
+hr {
+  width: 450px;
+}
+p {
+  font-size: 22px;
+  font-family: garamond;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	color: rgba(255,255,255,1);
+	margin-right: 50px;
+}
+
+div { 
+/*	opacity: 0.5;...this was making the text inside the div transparent */	
+	width: 450px; 
+	height: 100%; 
+	margin-left:auto; 
+	margin-right:auto; 
+	padding: 15px; 
+	background-color: rgba(0,0,0,.5); 
+}
