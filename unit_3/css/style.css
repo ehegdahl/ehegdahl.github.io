@@ -8,8 +8,8 @@ h1 {
 }
 body {
   text-align: center;
- /* background: url("http://i.imgur.com/q0FaaAk.jpg");*/
-  background: url(/Users/erichegdahl/Documents/ehegdahl.github.io/unit_3/images/Background.png ) repeat 0 0;
+ /* I could not figure out how to get a video into the background so I used this image */
+  background: url(Background.png) repeat 0 0;
   background-size: cover;
   color: #fff;
   font-family: helvetica;
@@ -29,7 +29,8 @@ a {
 }
 
 div { 
-/*	opacity: 0.5;...this was making the text inside the div transparent */	
+/*	opacity: 0.5;...this was making the text inside the div transparent. 
+changed the background color of the div to rgba which allowed the text to be 100% opacity */	
 	width: 450px; 
 	height: 100%; 
 	margin-left:auto; 
