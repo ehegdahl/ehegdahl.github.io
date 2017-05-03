@@ -9,23 +9,23 @@ h1 {
 body {
   text-align: center;
  /* background: url("http://i.imgur.com/q0FaaAk.jpg");*/
-  background: url(/Users/erichegdahl/Documents/ehegdahl.github.io/unit_3/img/Background.png ) repeat 0 0;
+  background: url(/Users/erichegdahl/Documents/ehegdahl.github.io/unit_3/images/Background.png ) repeat 0 0;
   background-size: cover;
   color: #fff;
   font-family: helvetica;
 }
+p {
+	font-family: garamond;
+}
 hr {
   width: 450px;
 }
-p {
-  font-size: 22px;
-  font-family: garamond;
-}
+
 a {
 	text-decoration: none;
 	text-align: center;
 	color: rgba(255,255,255,1);
-	margin-right: 50px;
+	margin-right: 30px;
 }
 
 div { 
@@ -36,4 +36,15 @@ div {
 	margin-right:auto; 
 	padding: 15px; 
 	background-color: rgba(0,0,0,.5); 
+}
+ul {
+	font-family: garamond;
+	font-size: 22px;
+    text-align: center;
+    list-style-type: none;
+    padding-left:0;
+
+}
+li {
+    margin: 20px 0;
 }
