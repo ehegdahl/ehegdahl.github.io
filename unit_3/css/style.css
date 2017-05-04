@@ -15,7 +15,8 @@ body {
   font-family: helvetica;
 }
 p {
-	font-family: garamond;
+	font-family: Garamond;
+	font-size: 20px;
 }
 hr {
   width: 450px;
