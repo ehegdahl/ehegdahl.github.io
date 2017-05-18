@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Arapey|Open+Sans+Condensed:300');
 
-nav {
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+#nav_one {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 20px;
 	margin-top: 25px;
@@ -17,6 +25,31 @@ body {
   background-size: cover;
   color: #fff;
 }
+#article_one {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+#section_two {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+#article_two, #article_three, #article_four {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+#section_three {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+#article_five, #article_six, #article_seven {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
 p {
 	font-family: 'Arapey', serif;
 	font-size: 20px;
@@ -24,14 +57,12 @@ p {
 hr {
   width: 450px;
 }
-
 a {
 	text-decoration: none;
 	text-align: center;
 	color: rgba(255,255,255,1);
 	margin-right: 30px;
 }
-
 div {
 /*	opacity: 0.5;...this was making the text inside the div transparent.
 changed the background color of the div to rgba which allowed the text to be 100% opacity */
@@ -52,4 +83,9 @@ ul {
 }
 li {
     margin: 20px 0;
+}
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
