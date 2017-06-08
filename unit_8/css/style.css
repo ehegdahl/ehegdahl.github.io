@@ -152,6 +152,8 @@ footer {
 	}
 
 	section_two, left, middle, right {
+		display: inline;
+		text-align: center;
 		float: none;
 		width: auto;
 	}
