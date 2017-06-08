@@ -4,7 +4,7 @@ body {
   text-align: center;
 	font-size: 30px;
   background: url("https://ehegdahl.github.io/unit_3/images/background.png") repeat 0 0;
-  background-size: 100%;
+  background-size: 100% auto;
 	background-repeat: no-repeat;
   color: #fff;
 }
@@ -139,6 +139,8 @@ footer {
 }
 
 @media only screen and (min-width: 780px) {
+	body {
+}
 	#nav_one {
 		float: none;
 		width:auto;
