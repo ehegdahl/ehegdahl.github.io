@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Open+Sans+Condensed:300');
+
+body {
+  text-align: center;
+	font-size: 30px;
+  background: url("https://ehegdahl.github.io/unit_3/images/background.png") repeat 0 0;
+  background-size: 100%;
+	background-repeat: no-repeat;
+  color: #fff;
+}
+
+header {
+	padding: 1em;
+}
+
+#nav_one {
+	padding: .25em;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	margin-top: .5em;
+  margin-left: 1.5em;
+}
+
+h1 {
+  font-family: 'Open Sans condensed', sans-serif;
+  font-weight: 50%;
+}
+
+#section_one {
+	width: 75%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding: .5em;
+	background-color: rgba(0,0,0,.5);
+}
+
+img {
+	width: 100%;
+}
+
+#article_one {
+	background-color: rgba(255,255,255,.5);
+	color: gray;
+	padding: 1em;
+}
+
+#section_two {
+	/*background-color: rgba(255,255,255,.5);*/
+	color: grey;
+	padding: 1em;
+}
+
+#left {
+	padding: .5em;
+	margin-right: .5em;
+	float: left;
+	width: 30%;
+}
+
+#middle {
+	padding: .5em;
+	margin-right: .5em;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	padding: .5em;
+	float: left;
+	width: 30%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#article_two, #article_three, #article_four {
+	padding: .5em;
+}
+
+#section_three {
+	background-color: rgba(255,255,255,.75);
+	color: gray;
+	padding: .5em;
+}
+
+#article_five, #article_six, #article_seven {
+	/*background-color: #E89C6C;
+	border: 1px black solid;*/
+	padding: 1em;
+}
+
+p {
+	font-family: 'Arapey', serif;
+	font-size: .75em;
+}
+
+hr {
+  width: 90%;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	color: rgba(0,0,0,1);
+	margin-right: 1.5em;
+}
+
+div {
+	width: 50%;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: .5em;
+	background-color: rgba(0,0,0,.5);
+}
+
+ul {
+	font-family: 'Arapey', serif;
+	font-size: .75em;
+  text-align: center;
+  list-style-type: none;
+  padding-left:0;
+}
+
+li {
+    margin: 1em 0;
+}
+
+footer {
+	padding: 1em;
+}
+
+@media only screen and (min-width: 780px) {
+	#nav_one {
+		float: none;
+		width:auto;
+	}
+
+	#section_one {
+		max-width: 580px;
+		min-width: 500px
+	}
+
+	section_two, left, middle, right {
+		float: none;
+		width: auto;
+	}
+}
