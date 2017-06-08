@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Arapey|Open+Sans+Condensed:300');
 
 body {
-  text-align: center;
-	font-size: 30px;
   background: url("https://ehegdahl.github.io/unit_3/images/background.png") repeat 0 0;
   background-size: 100% auto;
-	/*background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
+  min-height: 800px;
+  text-align: center;
+	font-size: 30px;
   color: #fff;
 }
 
@@ -42,7 +43,7 @@ img {
 
 #article_one {
 	background-color: rgba(255,255,255,.5);
-	color: gray;
+	color: $fff;
 	padding: 1em;
 }
 
@@ -140,6 +141,7 @@ footer {
 
 @media only screen and (min-width: 780px) {
 	body {
+    max-width: 1180px;
 }
 	#nav_one {
 		float: none;
@@ -147,8 +149,7 @@ footer {
 	}
 
 	#section_one {
-		max-width: 580px;
-		min-width: 500px
+		max-width: 500px;
 	}
 
 	section_two, left, middle, right {
