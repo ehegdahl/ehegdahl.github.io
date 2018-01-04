@@ -5,4 +5,6 @@ title: Sales & Orders Process & Flow Documentation
 
 
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+This is the linear process, from sales to support, our workflow.  
+
+This has been adapted from the [Confluence Repository](https://salesandorders.atlassian.net/wiki/spaces/CS/pages/13762569/How-to+articles) on on Confluence and maintained in part by POD Leaders, Department Heads and yours truly: Eric Hegdahl.
