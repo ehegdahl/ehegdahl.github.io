@@ -26,5 +26,5 @@ Close the Deal
 Post -  Sales Process
 
 Setup
-Kickstart
+Onboarding
 Client Services [ Client Success ]
