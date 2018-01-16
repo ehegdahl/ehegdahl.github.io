@@ -18,11 +18,11 @@ avatar: https://raw.githubusercontent.com/ehegdahl/images/jekyll-logo.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: ehegdahl@salesandorders.com  
   facebook:
   flickr:
   github: ehegdahl
-  instagram: type1.outside
+  instagram:
   linkedin: erichegdahl
   pinterest:
   rss: # just type anything here for a working RSS icon
@@ -76,6 +76,13 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-avatar
+ - jemoji
+ - jekyll-mentions
+ - jekyll-include-cache
 
 # Exclude these files from your production _site
 exclude:
