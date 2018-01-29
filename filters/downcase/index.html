@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  
+<!-- Mirrored from shopify.github.io/liquid/filters/downcase/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jan 2018 21:59:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>downcase – Liquid template language</title>
+
+    <meta name="description" content="Liquid filter that coverts a string to lowercase.">
+    <meta name="author" content="Shopify">
+
+    <meta name="robots" content="index, follow">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="icon" type="image/png" href="../../images/icons/water-drop-32x.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../images/icons/water-drop-64x.png" sizes="64x64">
+    <link rel="canonical" href="http://liquidmarkup.org/liquid/filters/downcase/">
+    <link rel="alternate" type="application/rss+xml" title="Liquid template language" href="http://liquidmarkup.org/liquid/feed.xml" />
+
+    <meta property="og:site_name" content="Liquid template language">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://liquidmarkup.org/liquid">
+    <meta property="og:title" content="downcase">
+    <meta property="og:description" content="Liquid filter that coverts a string to lowercase.">
+
+    <meta name="twitter:site" content="Liquid template language">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="http://liquidmarkup.org/liquid">
+    <meta name="twitter:title" content="downcase">
+    <meta name="twitter:description" content="Liquid filter that coverts a string to lowercase.">
+  </head>
+
+  <body>
+
+    <div class="sidebar">
+  <header class="sidebar__logo" role="banner">
+    <a href="../../index.html">Liquid</a>
+  </header>
+  <nav class="sidebar__nav"> 
+
+    
+    <h3 class="section__header">Basics</h3>
+
+    <ul class="section__links">
+    
+      <li><a href="../../basics/introduction/index.html" class="section__link">Introduction</a></li>
+    
+      <li><a href="../../basics/operators/index.html" class="section__link">Operators</a></li>
+    
+      <li><a href="../../basics/truthy-and-falsy/index.html" class="section__link">Truthy and falsy</a></li>
+    
+      <li><a href="../../basics/types/index.html" class="section__link">Types</a></li>
+    
+      <li><a href="../../basics/variations/index.html" class="section__link">Variations of Liquid</a></li>
+    
+      <li><a href="../../basics/whitespace/index.html" class="section__link">Whitespace control</a></li>
+    
+    </ul>
+    
+    <h3 class="section__header">Tags</h3>
+
+    <ul class="section__links">
+    
+      <li><a href="../../tags/comment/index.html" class="section__link">Comment</a></li>
+    
+      <li><a href="../../tags/control-flow/index.html" class="section__link">Control flow</a></li>
+    
+      <li><a href="../../tags/iteration/index.html" class="section__link">Iteration</a></li>
+    
+      <li><a href="../../tags/raw/index.html" class="section__link">Raw</a></li>
+    
+      <li><a href="../../tags/variable/index.html" class="section__link">Variable</a></li>
+    
+    </ul>
+    
+    <h3 class="section__header">Filters</h3>
+
+    <ul class="section__links">
+    
+      <li><a href="../abs/index.html" class="section__link">abs</a></li>
+    
+      <li><a href="../append/index.html" class="section__link">append</a></li>
+    
+      <li><a href="../at_least/index.html" class="section__link">at_least</a></li>
+    
+      <li><a href="../at_most/index.html" class="section__link">at_most</a></li>
+    
+      <li><a href="../capitalize/index.html" class="section__link">capitalize</a></li>
+    
+      <li><a href="../ceil/index.html" class="section__link">ceil</a></li>
+    
+      <li><a href="../compact/index.html" class="section__link">compact</a></li>
+    
+      <li><a href="../concat/index.html" class="section__link">concat</a></li>
+    
+      <li><a href="../date/index.html" class="section__link">date</a></li>
+    
+      <li><a href="../default/index.html" class="section__link">default</a></li>
+    
+      <li><a href="../divided_by/index.html" class="section__link">divided_by</a></li>
+    
+      <li><a href="index.html" class="section__link section__link--is-active">downcase</a></li>
+    
+      <li><a href="../escape/index.html" class="section__link">escape</a></li>
+    
+      <li><a href="../escape_once/index.html" class="section__link">escape_once</a></li>
+    
+      <li><a href="../first/index.html" class="section__link">first</a></li>
+    
+      <li><a href="../floor/index.html" class="section__link">floor</a></li>
+    
+      <li><a href="../join/index.html" class="section__link">join</a></li>
+    
+      <li><a href="../last/index.html" class="section__link">last</a></li>
+    
+      <li><a href="../lstrip/index.html" class="section__link">lstrip</a></li>
+    
+      <li><a href="../map/index.html" class="section__link">map</a></li>
+    
+      <li><a href="../minus/index.html" class="section__link">minus</a></li>
+    
+      <li><a href="../modulo/index.html" class="section__link">modulo</a></li>
+    
+      <li><a href="../newline_to_br/index.html" class="section__link">newline_to_br</a></li>
+    
+      <li><a href="../plus/index.html" class="section__link">plus</a></li>
+    
+      <li><a href="../prepend/index.html" class="section__link">prepend</a></li>
+    
+      <li><a href="../remove/index.html" class="section__link">remove</a></li>
+    
+      <li><a href="../remove_first/index.html" class="section__link">remove_first</a></li>
+    
+      <li><a href="../replace/index.html" class="section__link">replace</a></li>
+    
+      <li><a href="../replace_first/index.html" class="section__link">replace_first</a></li>
+    
+      <li><a href="../reverse/index.html" class="section__link">reverse</a></li>
+    
+      <li><a href="../round/index.html" class="section__link">round</a></li>
+    
+      <li><a href="../rstrip/index.html" class="section__link">rstrip</a></li>
+    
+      <li><a href="../size/index.html" class="section__link">size</a></li>
+    
+      <li><a href="../slice/index.html" class="section__link">slice</a></li>
+    
+      <li><a href="../sort/index.html" class="section__link">sort</a></li>
+    
+      <li><a href="../sort_natural/index.html" class="section__link">sort_natural</a></li>
+    
+      <li><a href="../split/index.html" class="section__link">split</a></li>
+    
+      <li><a href="../strip/index.html" class="section__link">strip</a></li>
+    
+      <li><a href="../strip_html/index.html" class="section__link">strip_html</a></li>
+    
+      <li><a href="../strip_newlines/index.html" class="section__link">strip_newlines</a></li>
+    
+      <li><a href="../times/index.html" class="section__link">times</a></li>
+    
+      <li><a href="../truncate/index.html" class="section__link">truncate</a></li>
+    
+      <li><a href="../truncatewords/index.html" class="section__link">truncatewords</a></li>
+    
+      <li><a href="../uniq/index.html" class="section__link">uniq</a></li>
+    
+      <li><a href="../upcase/index.html" class="section__link">upcase</a></li>
+    
+      <li><a href="../url_decode/index.html" class="section__link">url_decode</a></li>
+    
+      <li><a href="../url_encode/index.html" class="section__link">url_encode</a></li>
+    
+    </ul>
+    
+
+  </nav>
+</div>
+
+
+    <div class="content__overlay"></div>
+    <main class="content__area" role="main">
+      <div class="content">
+        <button class="menu-button">
+          <span aria-hidden="true"><svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg"><title>three-bars</title><desc>Created with Sketch.</desc><path d="M11.41 9h-10.82c-.59 0-.59-.41-.59-1 0-.59 0-1 .59-1h10.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4h-10.82c-.59 0-.59-.41-.59-1 0-.59 0-1 .59-1h10.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm-10.82 6h10.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1h-10.81c-.59 0-.59-.41-.59-1 0-.59 0-1 .59-1z" fill="#000"/></svg></span>
+          <span>Menu</span>
+        </button>
+        <h1>downcase</h1>
+        <p>Makes each character in a string lowercase. It has no effect on strings which are already all lowercase.</p>
+
+<p class="code-label">Input</p>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{{</span><span class="w"> </span><span class="s2">"Parker Moore"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">downcase</span><span class="w"> </span><span class="p">}}</span>
+
+</code></pre></div></div>
+
+<p class="code-label">Output</p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>parker moore
+</code></pre></div></div>
+
+<p class="code-label">Input</p>
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{{</span><span class="w"> </span><span class="s2">"apple"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">downcase</span><span class="w"> </span><span class="p">}}</span>
+
+</code></pre></div></div>
+
+<p class="code-label">Output</p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apple
+</code></pre></div></div>
+
+      </div>
+    </main>
+    <script src="../../js/script.js"></script>
+  </body>
+
+<!-- Mirrored from shopify.github.io/liquid/filters/downcase/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jan 2018 21:59:04 GMT -->
+</html>
