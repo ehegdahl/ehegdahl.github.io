@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+In collaboration with Ed, Gio, James, Julie, John, Kevin and executed here by Eric. 
+S & O Learning & Development Series.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+The content is executed using Jekyll with Liquid templates.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ehegdahl@salesandorders.com](mailto:ehegdahl@salesandorders.com)
