@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sales & Orders Sales Process
+title: S&O Sales
 ---
 
 OUTBOUND  
@@ -42,6 +42,6 @@ contacts will be automatically placed into a sequence based on the industry ]
   Current Marketplaces
   Amazon
   Ebay
-  
+
   Searched items in Sales Notes
   Search for two or three of their ads to verify they use shopping or confirm that they don't

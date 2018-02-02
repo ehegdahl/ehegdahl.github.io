@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sales & Orders Sales Process
+title: S&O Sales
 ---
 
 INBOUND
