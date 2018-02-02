@@ -5,6 +5,7 @@ title: S&O StartUp
 
 New Account Setup
 
+
 [ IMPORTANT NOTE : Contact the new client within 2 hours of receiving the new account step b ]
 
 Check to see if the new client was assigned a SANDO email in Salesforce (under login details > Adwords Login Email).
