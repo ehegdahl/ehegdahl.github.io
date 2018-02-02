@@ -3,7 +3,9 @@ layout: page
 title: Sales & Orders Sales Process
 ---
 
-OUTBOUND  [ Software to be familiar with – Salesforce, Outreach, Outlook, Datanyze, ScheduleOnce ]
+OUTBOUND  
+
+[ Software to be familiar with – Salesforce, Outreach, Outlook, Datanyze, ScheduleOnce ]
 
 Prospecting
 
