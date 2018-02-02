@@ -10,6 +10,7 @@ OUTBOUND
 Prospecting
 
 Use Datanyze reporting to filter which businesses you want to reach out to [ Using the different filters to make the best leads viewable ]
+
 Filters are by: ecommerce platform, company size, state, technologies used [ analytics ] and industry. Daily goal is to import between 10-15 leads each day.
 Look at each businesses' website to determine if they are a 'qualified' lead
 The six qualifications:
@@ -22,6 +23,7 @@ Website is mobile friendly
 If lead is 'qualified' import the lead into Salesforce
 Enter in appropriate data in Salesforce Account and Contact information
 contacts will be automatically placed into a sequence based on the industry ]
+
   Account name
   SDR name
   Lead source
@@ -40,5 +42,6 @@ contacts will be automatically placed into a sequence based on the industry ]
   Current Marketplaces
   Amazon
   Ebay
+  
   Searched items in Sales Notes
   Search for two or three of their ads to verify they use shopping or confirm that they don't
