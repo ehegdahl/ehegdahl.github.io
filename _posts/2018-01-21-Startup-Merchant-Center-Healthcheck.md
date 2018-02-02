@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sales & Orders StartUp Process
+title: S&O StartUp
 ---
 
 Merchant Center Health Check
